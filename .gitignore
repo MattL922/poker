@@ -1,3 +1,6 @@
+# This contains secret app keys so it is ignored
+server.js
+
 # Logs
 logs
 *.log
