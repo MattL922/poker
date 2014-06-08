@@ -1,6 +1,6 @@
 {
-    "name": "suicide_king_poker",
-    "description": "A subscription based poker site.",
+    "name": "poker",
+    "description": "A node.js poker app.",
     "version": "0.0.1",
     "private": true,
     "dependencies": {
