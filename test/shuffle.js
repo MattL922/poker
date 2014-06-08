@@ -8,15 +8,13 @@ var sorted_deck = [
     39,40,41,42,43,44,45,46,47,48,49,50,51
 ];
 
-function num_sort(a, b)
+function compare(a, b)
 {
-    if(a > b) return 1;
-    if(a < b) return -1;
-    return 0;
+    return a - b;
 }
 
 var shuffled_deck = shuffle.getShuffledDeck();
-shuffled_deck.sort(num_sort);
+shuffled_deck.sort(compare);
 
 assert.strictEqual(
     sorted_deck.length,
