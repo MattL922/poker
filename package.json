@@ -1,0 +1,12 @@
+{
+    "name": "suicide_king_poker",
+    "description": "A subscription based poker site.",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.1.1",
+        "redis": "0.10.1",
+	"mysql":"2.3.0",
+	"swig":"1.3.2"
+    }
+}
