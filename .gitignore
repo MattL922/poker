@@ -1,5 +1,5 @@
-# This contains secret app keys so it is ignored
-server.js
+# App secret and mysql db creds
+secret/
 
 # Logs
 logs
